@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education</title>
+
+</head>
+
+<!-- Education section-->
+
+<body>
+<center>
+   <h1>EDUCATION</h1>
+</center>
+
+<h2>What is GBV?</h2>
+
+<ul>
+    <li>
+        Any harmful act directed at a person which includes physical, emotional, sexual, and financial abuse,
+        and is often used to <b>control, harm, or intimidate someone.</b>
+    </li>
+</ul>
+
+<nav>
+    <a href="https://youtu.be/Uhg3cxnwNxc?si=2L65_L2ljrZVzk-U">Click me for more verbal explanation!</a>
+</nav>
+
+<p>
+    End Gender based violence.<br>
+    <b>Gender-Based Violence (GBV)</b> is a serious issue affecting millions of people worldwide.
+    It includes physical, emotional, sexual, and financial abuse. Together, we can raise awareness
+    and take action to stop it. Ending <b>Gender-Based Violence (GBV)</b> in South Africa is not just a goal—it is an urgent national priority.
+</p>
+
+<nav>
+    <a href="https://youtu.be/Ked1zGySa7Q?si=VqZeOrPerp6gZ1-o">Learn how to end GBV</a><br>
+    <a href="https://youtu.be/UpgZ5PCuf8A?si=XyWl7edU1Yzrid3T">Learn about Gender Inequality & Domestic violence</a>
+</nav>
+
+<h2>How Can We Prevent GBV?</h2>
+
+<ul>
+    <li>Educate people about respect, consent, and equality.</li>
+    <li>Speak out against abuse and harmful behavior.</li>
+    <li>Create safe school environments.</li>
+    <li>Teach men and boys how to respect and treat women.</li>
+    <li>Encourage bystander action.</li>
+    <li>Teach women and girls how they can protect themselves.</li>
+    <li>Create organizations that give people more knowledge about <b>GBV.</b></li>
+    <li>Teach young kids about safe and unsafe touches.</li>
+    <li>Support victims and encourage them to seek help.</li>
+    <li>Promote healthy relationships in communities and schools.</li>
+</ul>
+
+<a href="https://youtu.be/IYmBOTi1d9U?si=o8pssjD_VvkSzsZu">Learn More about Preventing GBV</a>
+
+<h3>Raising Awareness About Gender-Based Violence</h3>
+
+<p>
+    <b>Raising awareness about Gender-Based Violence (GBV)</b> is one of the most important steps in preventing it.
+    Many people experience abuse in silence because they do not fully understand what GBV is,
+    or they are afraid to speak out.
+</p>
+
+<a href="https://youtu.be/dIFZYDVc5Gg?si=MhvP_15JKrSt8guO">
+    Learn how to raise awareness about GBV
+</a>
+
+<p>
+    Awareness helps people recognize that GBV is not only physical abuse,
+    but also includes <b>emotional, verbal, sexual, and financial harm.</b>
+</p>
+
+<nav>
+    <a href="https://youtu.be/D1AFyXtEpAE?si=nUveISBSELkHetDo">Striking back against GBV</a><br>
+    <a href="https://youtu.be/Klq7Aquhp0s?si=OpoOBvwr5Wn4udLp">Women in Change</a><br>
+    <a href="https://youtu.be/044Ey0N7tII?si=nN6mmAdHlQGA8aXy">National Shutdown for change</a><br>
+    <a href="https://youtu.be/atMTFpX_TN4?si=LH8ZE8WC5Wjhi6Jp">Documentary</a><br>
+    <a href="https://youtu.be/mSJ2xfRmpMw?si=e-6ClZ7MIc2upc-d">
+        South Africa declares GBV a national disaster
+    </a>
+</nav>
+
+<h2>How can we teach children from the age of 5 about GBV?</h2>
+
+<!-- Gallery section for Education -->
+<section class="gallery" id="gallery">
+    <div class="gallery-header">
+        <h2>Memorial Gallery</h2>
+        <p>Documenting our heroes, survivors, and loved ones we lost.</p>
+    </div>
+
+    <div class="gallery-grid" id="gallery-grid">
+
+        <div class="gallery-item">
+            <img src="images/image1.jpeg" alt="Memorial Image 1">
+        </div>
+
+        <div class="gallery-item">
+            <img src="images/image2.jpeg" alt="Memorial Image 2">
+        </div>
+
+        <div class="gallery-item">
+            <img src="images/image3.jpeg" alt="Memorial Image 3">
+        </div>
+
+    </div>
+</section>
+
+</body>
+</html>

@@ -1,0 +1,24 @@
+fetch('https://www.gov.za/GBV')
+  .then(response => response.json())
+  .then(data => {
+    console.log(data);
+  })
+  .catch(error => {
+    console.log('Error:', error);
+  });
+  fetch('https://www.gicj.org/topics/thematic-issues/women-gender-equality/4322-gender-based-violence-gbv-in-south-africa-a-national-disaster')
+  .then(response => response.json())
+  .then(data => {
+    console.log(data);
+  })
+  .catch(error => {
+    console.log('Error:', error);
+  });
+  fetch('https://www.justice.gov.za/vg/GBV.html')
+  .then(response => response.json())
+  .then(data => {
+    console.log(data);
+  })
+  .catch(error => {
+    console.log('Error:', error);
+  });

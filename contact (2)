@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Contacts</title>
+</head>
+<style>
+    *{
+        box-sizing: border-box;
+        padding: 0%;
+        margin: 10px ;}
+        body{
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .container{
+            width: 300px;
+            padding: 10px;
+            background-color:rgb(182, 128, 128);
+            text-align: center;
+        }
+         footer{
+        background-color:rgb(182, 128, 128) ;
+    }
+    .content{
+
+        display: flex;
+        justify-content:center;
+        justify-content: space-between;
+        margin-top: 80%;
+        padding: 60px 10%;
+ }h3{
+    font-size: 18px;
+    color:gold;
+    margin-bottom:25px;
+ }
+ li{
+    list-style: none;
+ }
+ li a{
+    text-decoration: none;
+ }
+ li a:hover{
+    color: rgb(255, 0, 0);
+    transition: 0s ease-in-out;
+ }
+ .bottom-bar{
+    text-align:center;
+    border: 2px solid white;
+ }
+ .footer-content p a:hover{
+ color: rgb(255, 0, 0);
+    transition: 0s ease-in-out;
+ }
+ .bottom-bar{
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+ }
+        h2{
+            margin-bottom: 20px;
+
+        }
+        input, textarea{
+            width: 100%;
+            padding: 7px;
+            margin: 5px 0;
+            border: none;
+            outline: none;
+        }
+        button{
+            border: none;
+            border-radius: 3px;
+            background-color: aquamarine;
+            padding: 7px 30px;
+            color: white;
+        }
+        .contact-info{
+            text-align:center;
+            width: 20%;
+            padding: 10px;
+            margin: 10px;
+            border: 10px;
+            outline: auto;
+            background-color:rgb(182, 128, 128) ;
+        }
+        .contact-info h3{
+            font-size: 25px;
+            margin-bottom: 20px;
+            color:black ;
+        }
+        .contact-info p{
+            margin-bottom: 10px;
+            color: black;
+
+        }
+</style>
+<br>
+<body>
+    <div class="container">
+        <h2>Leave your comment</h2>
+        <input type="text" placeholder="name">
+        <input type="email" placeholder="email">
+        <textarea rows="10" placeholder="Enter your comment"></textarea>
+        <button>Submit</button>
+    </div>
+
+ <footer>
+         <div class="footer-content">
+            <h3>Follow Us</h3>
+            <ul>
+            <li><a href="">Twitter</a></li>
+            <li><a href="">Facebook</a></li>
+            <li><a href="">Instagram</a></li>
+            </ul>  
+         </div>
+</div>
+
+<div class="bottom-bar">
+     <p>Copyrights@GBV.Awarness.ac.za 2026</p>
+ </div>
+    
+    </footer>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body>
+</html>
