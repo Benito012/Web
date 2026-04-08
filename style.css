@@ -1,4 +1,5 @@
  * {
+
    margin: 0;
    padding: 0;
    box-sizing: border-box;
@@ -519,4 +520,344 @@ nav ul li a:hover {
            letter-spacing: 1px;
        }
 
-       
+      * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f2f2f2;
+}
+
+/* Main Content Area */
+.main-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 60px 20px;
+}
+
+.container {
+    width: 100%;
+    max-width: 420px;
+    padding: 35px;
+    background-color: white;
+    border: 3px solid black;
+    box-shadow: 8px 8px 0px red;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 25px;
+    color: black;
+    font-size: 28px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-bottom: 3px solid red;
+    padding-bottom: 15px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 2px solid black;
+    outline: none;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+input:focus,
+textarea:focus {
+    border-color: red;
+    box-shadow: 4px 4px 0px black;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+button {
+    border: 2px solid black;
+    background-color: hsl(0, 99%, 36%);
+    padding: 12px 40px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 15px;
+    transition: all 0.3s ease;
+    box-shadow: 4px 4px 0px black;
+}
+
+button:hover {
+    background-color: black;
+    transform: translate(-2px, -2px);
+    box-shadow: 6px 6px 0px red;
+}
+
+/* Footer */
+footer {
+    background-color: black;
+    color: white;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 35px 20px;
+}
+
+.footer-content h3 {
+    font-size: 24px;
+    color: red;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.social-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.social-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 10px 18px;
+    border: 2px solid white;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+.social-links li a:hover {
+    background-color: red;
+    border-color: red;
+    transform: translateY(-3px);
+}
+
+.bottom-bar {
+    background-color: red;
+    text-align: center;
+    padding: 12px;
+    border-top: 3px solid white;
+}
+
+.bottom-bar p {
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 1px;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black; /* same as homepage */
+    color: white;
+}
+
+.main-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 20px;
+    background-color: black; /* match homepage */
+}
+
+.container {
+    width: 100%;
+    max-width: 420px;
+    padding: 35px;
+    background-color: #111; /* dark theme */
+    border: 2px solid red;
+    box-shadow: 0 0 20px rgba(255, 0, 0, 0.4);
+    text-align: center;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 2px solid red;
+    background-color: black;
+    color: white;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #aaa;
+}
+h2 {
+    color: white;
+    border-bottom: 2px solid red;
+}
+
+.social-links li a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.social-links i {
+    font-size: 18px;
+}
+
+.social-links li:nth-child(1) a:hover {
+    background-color: #1DA1F2; /* Twitter blue */
+    border-color: #1DA1F2;
+}
+
+.social-links li:nth-child(2) a:hover {
+    background-color: #1877F2; /* Facebook blue */
+    border-color: #1877F2;
+}
+
+.social-links li:nth-child(3) a:hover {
+    background: linear-gradient(45deg, #feda75, #d62976, #962fbf);
+    border-color: #d62976;
+}
+
+.main-content {
+    background: radial-gradient(circle at top, #1a0000, #000);
+}
+
+.container {
+    background: rgba(20, 0, 0, 0.9);
+    border: 2px solid red;
+    box-shadow: 
+        0 0 20px red,
+        0 0 40px rgba(255, 0, 0, 0.4);
+    backdrop-filter: blur(10px);
+}
+
+input, textarea {
+    background-color: #0a0a0a;
+    border: 2px solid #330000;
+    color: white;
+    transition: 0.3s;
+}
+
+input:focus, textarea:focus {
+    border-color: red;
+    box-shadow: 0 0 10px red;
+}
+
+button {
+    background: linear-gradient(45deg, red, darkred);
+    border: none;
+    box-shadow: 0 0 10px red;
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 25px red;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-size: 13px;
+    color: #aaa;
+    text-align: left;
+}
+
+.main-content {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: 
+        linear-gradient(rgba(0,0,0,0.05), rgba(0,0,0,0.1)),
+        url("images/WhatsApp Image 2026-03-24 at 18.54.30");
+
+    background-size: cover;
+    background-position: center;
+}
+
+/* Helplines Section - CENTERED BLOCK, LEFT-ALIGNED TEXT */
+.helplines {
+    margin-top: 30px;
+    padding: 25px;
+    background-color: black;
+    border: 2px solid red;
+    max-width: 600px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto; /* Centers the block */
+}
+
+.helplines h4 {
+    color: white; /* Changed to white */
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+    text-align: center; /* Heading centered */
+    border-bottom: 1px solid red;
+    padding-bottom: 10px;
+}
+
+.helplines ul {
+    list-style: none;
+    padding: 0;
+    text-align: left; /* Left-aligned list items */
+}
+
+.helplines li {
+    color: white; /* White text */
+    font-size: 14px;
+    padding: 8px 0;
+    border-bottom: 1px solid black;
+    line-height: 1.5;
+    text-align: left; /* Left-aligned text */
+}
+
+.helplines li:last-child {
+    border-bottom: none;
+}
+
+.helplines li strong {
+    color: white; /* White text for labels too */
+}
+
+.bottom-bar {
+    background-color: red;
+    text-align: center;
+    padding: 20px;
+    border-top: 3px solid white;
+}
+
+.bottom-bar p {
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 1px;
+}
+
